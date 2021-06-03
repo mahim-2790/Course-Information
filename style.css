@@ -127,26 +127,18 @@ td{
     background: #323232;
 }
 .imgs{
-    height: 110px;
     padding: 5px;
-    margin: 5px;
-    
+    margin: 5px; 
     text-align: center;
-    
 }
 
 .course-con{
-
     padding: 5px;
-    margin: 10px;
-    
-    
+    margin: 10px; 
 }
 .course-links{
-    
     padding: 5px;
     margin: 10px;
-    
 }
 
 
