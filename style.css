@@ -7,8 +7,11 @@ sup{
     font-size: smaller;
 }
 img{
+    display: block;
     width: 100px;
     border-radius: 50%;
+    margin: auto;
+    align-self: center;
 }
 a{
     text-decoration: none;
@@ -106,6 +109,8 @@ td{
     border: 1px #333 solid;
     border-radius: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .course a{
@@ -121,6 +126,29 @@ td{
     color: whitesmoke;
     background: #323232;
 }
+.imgs{
+    height: 110px;
+    padding: 5px;
+    margin: 5px;
+    
+    text-align: center;
+    
+}
+
+.course-con{
+    flex: 33.3%;
+    padding: 5px;
+    margin: 10px;
+    
+    
+}
+.course-links{
+    flex: 33.3%;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
 
 @media screen and (max-width: 480px) {
     .notification-area{
