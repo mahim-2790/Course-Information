@@ -110,6 +110,7 @@ td{
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .course a{
@@ -135,14 +136,14 @@ td{
 }
 
 .course-con{
-    flex: 33.3%;
+
     padding: 5px;
     margin: 10px;
     
     
 }
 .course-links{
-    flex: 33.3%;
+    
     padding: 5px;
     margin: 10px;
     
